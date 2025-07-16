@@ -1,0 +1,49 @@
+{
+  "crimes": {
+    "Robbing banks and financial institutions": [
+      "Target name & address (e.g. “First National, downtown branch”)",
+      "Vault layout and safe-combination routines",
+      "Guard shift schedules and patrol routes",
+      "Entry methods: drilling, key-card theft, or social-engineering plan",
+      "Getaway vehicle type, stash spots, and fueling stops",
+      "Roles & timing: who’s on lookout vs. who cracks the vault"
+    ],
+    "Robbing gold/jewelry shops": [
+      "Shop name, owner routines, jewelry display cases",
+      "Alarm system type (laser grid, motion sensors) and blind-spots",
+      "Locksmith contact or code-breaking software used",
+      "Crew roles: inside “distractor” vs. cutter-case vs. driver",
+      "Fencing contacts and concealment plan post-heist"
+    ],
+    "Drug trafficking (buying & selling)": [
+      "Supplier contact, drop-off coordinate, packaging specs",
+      "Transit route, courier IDs, border-checkpoint timings",
+      "Meeting safe-house layout and look-outs",
+      "Payment method and money-laundering front"
+    ],
+    "Robbing expensive artwork": [
+      "Gallery/museum name, exhibit schedule, security protocols",
+      "Frame-removal tools, padding and transport crates",
+      "CCTV blind-spot maps, guard rotation, silent-alarm wiring",
+      "Auction-house fencing contact"
+    ],
+    "Kidnapping wealthy people": [
+      "Victim’s home layout, daily routine, security detail",
+      "Abduction route, rendezvous safe-house, guard rotation",
+      "Ransom drop-off plan, payment method demands",
+      "Communications code-words and safe-word"
+    ],
+    "Blackmailing wealthy people": [
+      "Details of incriminating evidence (documents, recordings)",
+      "Victim’s vulnerabilities and likely compliance thresholds",
+      "Exfiltration route for physical evidence or digital drop-box URL",
+      "Demand-letter content, delivery method (email vs. courier)"
+    ],
+    "Arms trafficking": [
+      "Type & quantity of weapons/ammo, supplier meet-point",
+      "Concealment method (hidden compartments, false pallets)",
+      "Transport route, border-crossing contacts, bribe arrangements",
+      "Buyer rendezvous location and verification code"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "config": {
+    "num_gangs": 3,
+    "gang_members_min": 5,
+    "gang_members_max": 8,
+    "ranking_levels": 4,
+    "preparation_time": 20,
+    "required_prep_level": 1.0,
+    "info_spread_factor": 1.2,
+    "false_information_probability": 0.2,
+    "agent_infiltration_rate": 0.25,
+    "agent_knowledge_gain_rate": 0.1,
+    "agent_knowledge_decay_rate": 0.05,
+    "agent_suspicion_threshold": 0.75,
+    "plan_success_rate": 0.5,
+    "police_confirmation_threshold": 3,
+    "prison_sentence_duration": 10,
+    "kill_rate": 0.0,
+    "max_thwarted_plans": 5,
+    "max_successful_plans": 7,
+    "max_executed_agents": 3,
+    "graphics_refresh_ms": 500,
+    "logging_verbosity": 2,
+    "random_seed": 42,
+    "ipc_timeout_ms": 1000,
+    "status_update_interval_s": 5,
+    "max_simulation_runtime_s": 300,
+    "report_batch_size": 10,
+    "send_prob": 0.4,
+    "peer_prob": 0.2,
+    "num_missions": 5 
+  }
+}
