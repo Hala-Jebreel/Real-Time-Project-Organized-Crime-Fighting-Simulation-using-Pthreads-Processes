@@ -66,3 +66,41 @@ SUSPICION_THRESHOLD=60
 MAX_SUCCESSFUL_MISSIONS=10
 MAX_THWARTED_MISSIONS=8
 MAX_EXECUTED_AGENTS=5
+ How to Run
+🧱 Requirements
+Linux OS
+
+GCC compiler
+
+POSIX thread support
+
+OpenGL (optional for GUI)
+
+🔧 Build
+
+make
+▶️ Run the Simulation
+
+./main config.txt
+🖼️ Launch GUI (if available)
+
+./gang_gui
+🔗 Technologies Used
+POSIX Threads: To simulate gang members as concurrent threads
+
+Processes: To simulate different gangs and police units
+
+Signals & Shared Memory: For inter-gang and agent-police communication
+
+Message Queues / Pipes: Optional for structured reporting
+
+OpenGL: Optional GUI showing gang activity and police response
+
+🧪 Simulation End Conditions
+The simulation terminates if:
+
+🚓 Police thwart more than X gang plans
+
+💣 Gangs successfully complete more than Y evil missions
+
+☠️ Too many agents are discovered and executed
